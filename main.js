@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
 		loader.addEventListener("transitionend", () => {
 			loader.remove();
 		});
-	}, 5000);
+	}, 3500);
 });
 
 function generateNewAnimation(name, Animation) {
@@ -83,7 +83,7 @@ window.addEventListener("load", () => {
 		ScrollReveal().reveal(".home-img", { origin: "bottom" });
 		ScrollReveal().reveal(".home-content h1", { origin: "left" });
 		ScrollReveal().reveal(".home-content p", { origin: "right" });
-	}, 5000);
+	}, 3500);
 });
 
 /* Cursor */
@@ -127,9 +127,9 @@ window.addEventListener("load", () => {
 			document.documentElement.clientHeight;
 		window.addEventListener("scroll", () => {
 			const scrollTop = document.documentElement.scrollTop;
-			prog.style.width = `${(scrollTop / height) * 99.95}%`;
+			prog.style.width = `${(scrollTop / height) * 99.90}%`;
 		});
-	}, 5000);
+	}, 3500);
 });
 
 /* Toggle Icon Navbar */
@@ -179,7 +179,7 @@ window.addEventListener("load", () => {
 			loop: true,
 			showCursor: false,
 		});
-	}, 5000);
+	}, 3500);
 });
 
 /* About Background */
