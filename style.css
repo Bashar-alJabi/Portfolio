@@ -62,10 +62,16 @@ body.loading {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	position: relative;
 	width: 100%;
 	height: 100%;
-	top: -50px;
+}
+.loader-container .content .circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 }
 .loader {
 	position: relative;
@@ -227,9 +233,15 @@ body.loading {
 		filter: blur(8px);
 	}
 }
+.advice-div {
+    width: 100%;
+    height: 50px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .advice {
-	position: absolute;
-	top: 70%;
 	font-size: 16px;
 	text-align: center;
 	width: 40%;
@@ -659,6 +671,12 @@ section {
 /* start skills */
 .skills {
 	background-color: var(--bg-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.center-container {
+	width: 100%;
 }
 .skills h2 {
 	margin-bottom: 5rem;
@@ -765,11 +783,17 @@ section {
 /* start Projects */
 .projects {
 	background-color: var(--seconde-bg-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.projects > h2 {
+.center-container {
+	width: 100%;
+}
+.projects .center-container > h2 {
 	margin-bottom: 5rem;
 }
-.projects > h2 span {
+.projects .center-container > h2 span {
 	color: var(--main-color);
 	margin-bottom: 4rem;
 }
@@ -938,6 +962,12 @@ section {
 /* start Contact */
 .contact {
 	background-color: var(--bg-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.center-container {
+	width: 100%;
 }
 .contact h2 {
 	margin-bottom: 3rem;
@@ -1170,7 +1200,7 @@ section {
 	.skills .cloud-container {
 		margin-bottom: 7rem;
 	}
-	.projects > h2 {
+	.projects .center-container > h2 {
 		margin-bottom: 3rem;
 	}
 }

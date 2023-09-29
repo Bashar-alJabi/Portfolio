@@ -2,13 +2,14 @@
 const loader = document.querySelector(".loader-container");
 const body = document.body;
 window.addEventListener("load", () => {
+	body.classList.add("loading")
 	setTimeout(() => {
 		loader.classList.add("loader-hidden");
 		body.classList.remove("loading");
 		loader.addEventListener("transitionend", () => {
 			loader.remove();
 		});
-	}, 3500);
+	}, 3000);
 });
 
 function generateNewAnimation(name, Animation) {
@@ -65,7 +66,7 @@ generateNewAnimation(advice, "advice 0.5s linear");
 setInterval(() => {
 	advice.textContent = randomAdvice();
 	generateNewAnimation(advice, "advice 0.5s linear");
-}, 3000);
+}, 2800);
 
 /* Scroll Reval */
 ScrollReveal({
@@ -83,7 +84,7 @@ window.addEventListener("load", () => {
 		ScrollReveal().reveal(".home-img", { origin: "bottom" });
 		ScrollReveal().reveal(".home-content h1", { origin: "left" });
 		ScrollReveal().reveal(".home-content p", { origin: "right" });
-	}, 3500);
+	}, 3000);
 });
 
 /* Cursor */
@@ -129,7 +130,7 @@ window.addEventListener("load", () => {
 			const scrollTop = document.documentElement.scrollTop;
 			prog.style.width = `${(scrollTop / height) * 99.90}%`;
 		});
-	}, 3500);
+	}, 2500);
 });
 
 /* Toggle Icon Navbar */
@@ -179,7 +180,7 @@ window.addEventListener("load", () => {
 			loop: true,
 			showCursor: false,
 		});
-	}, 3500);
+	}, 3000);
 });
 
 /* About Background */
