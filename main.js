@@ -130,7 +130,7 @@ window.addEventListener("load", () => {
 			const scrollTop = document.documentElement.scrollTop;
 			prog.style.width = `${(scrollTop / height) * 99.90}%`;
 		});
-	}, 2500);
+	}, 3000);
 });
 
 /* Toggle Icon Navbar */
