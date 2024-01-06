@@ -37,7 +37,7 @@ body {
 
 /* start Loading Page */
 body.loading {
-	max-height: 100vh;
+	max-height: 100dvh;
 	overflow: hidden;
 }
 .loader-container {
