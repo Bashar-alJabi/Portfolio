@@ -540,7 +540,6 @@ section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* gap: 3rem; */
 	text-align: center;
 	position: relative;
 }
@@ -561,22 +560,6 @@ section {
 	height: 100%;
 	background-color: rgb(0 0 0 / 85%);
 }
-/* .home-img img {
-	width: 35vw;
-	border-radius: 50%;
-	border: 3px solid var(--clr2);
-	outline: 3px solid var(--clr1);
-	outline-offset: 5px;
-	animation: borderImage 5s ease-in-out infinite alternate;
-}
-@keyframes borderImage {
-	0% {
-		border-radius: 50%;
-	}
-	100% {
-		border-radius: 25%;
-	}
-} */
 .home-content {
 	margin-top: 3rem;
 	text-align: center;
@@ -585,9 +568,6 @@ section {
 	font-size: 3.2rem;
 	font-weight: 700;
 }
-/* .home-content h3:nth-of-type(2) {
-	margin-bottom: 5rem;
-} */
 .home-content h3 span {
 	color: var(--main-color);
 }
