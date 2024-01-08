@@ -317,8 +317,11 @@ body:hover .cursor {
 
 /* start Section */
 section {
-	min-height: 100dvh;
+	min-height: 100vh;
 	padding: 10rem 9%;
+}
+section.home {
+	min-height: 100dvh;
 }
 /* end Section */
 
