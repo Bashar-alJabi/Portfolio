@@ -128,7 +128,7 @@ window.addEventListener("load", () => {
 			document.documentElement.clientHeight;
 		window.addEventListener("scroll", () => {
 			const scrollTop = document.documentElement.scrollTop;
-			prog.style.width = `${(scrollTop / height) * 99.5}%`;
+			prog.style.width = `${(scrollTop / height) * 99.2}%`;
 		});
 	}, 3000);
 });
