@@ -193,11 +193,13 @@ document.addEventListener("mousemove", (e) => {
 /* Cloud Raining*/
 function randomWord() {
 	let text = [
+		"React",
+		"Next",
+		"BS",
+		"TW",
 		"Html",
 		"Css",
 		"JS",
-		"BS",
-		"React",
 		"Pug",
 		"Sass",
 		"Gulp",

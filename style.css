@@ -687,9 +687,11 @@ section.home {
 	gap: 5rem;
 }
 .skills-container {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
 }
 .skills-container .skills-box {
 	background-color: var(--seconde-bg-color);
@@ -1111,9 +1113,6 @@ section.home {
 	.skills {
 		padding-bottom: 7rem;
 	}
-	.skills-container {
-		grid-template-columns: repeat(3, 1fr);
-	}
 	.projects {
 		padding-bottom: 7rem;
 	}
@@ -1228,9 +1227,6 @@ section.home {
 	.advice {
 		width: 80%;
 		top: 65%;
-	}
-	.skills-container {
-		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
