@@ -874,6 +874,8 @@ section.home {
 .projects-box .imgBx img {
 	position: relative;
 	max-width: 100px;
+	width: 100px;
+	height: 100px;
 	top: 50px;
 	z-index: 2;
 }
