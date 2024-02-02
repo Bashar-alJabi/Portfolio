@@ -625,6 +625,7 @@ section.home {
 }
 .about-img img {
 	width: 35vw;
+	height: fit-content;
 	animation: floatAboutImg 4s ease-in-out infinite;
 }
 @keyframes floatAboutImg {
