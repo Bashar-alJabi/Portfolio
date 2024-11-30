@@ -204,9 +204,8 @@ function randomWord() {
 		"Pug",
 		"Sass",
 		"Gulp",
-		"Jest",
 		"Git",
-		"Figma",
+		"UI/UX",
 	];
 	let letter = text[Math.floor(Math.random() * text.length)];
 	return letter;
